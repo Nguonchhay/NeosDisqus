@@ -1,0 +1,30 @@
+{
+    "name": "nguonchhay/neosdisqus",
+    "type": "neos-plugin",
+    "description": "Neos CMS plugin that renders comment from Disqus",
+    "keywords": [
+        "Comment plugin",
+        "Disqus comment plugin",
+        "Disqus",
+        "neos"
+    ],
+    "authors":[{
+        "name": "Nguonchhay Touch",
+        "email": "tnguonchhay@gmail.com",
+        "homepage": "",
+        "role": "Developer"
+    }],
+    "require": {
+        "neos/flow": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Nguonchhay\\NeosDisqus\\": "Classes/"
+        }
+    },
+    "extra": {
+        "neos": {
+            "package-key": "Nguonchhay.NeosDisqus"
+        }
+    }
+}

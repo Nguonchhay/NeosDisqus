@@ -1,0 +1,3 @@
+page.body {
+    disqusEmbeddedScript = ${q(site).property('disqusEmbeddedScript')}
+}
