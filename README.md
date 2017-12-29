@@ -32,7 +32,7 @@ disqusEmbeddedScript:
 
 * Copy the `Disqus` template and Fusion to your running site by running command below
 ```bash
-./flow activate:disqus
+./flow activate:disqus --site-key YOUR-RUNNING-SITE-KEY
 ```
 
 * Include the copied comment template into the page that you want to display

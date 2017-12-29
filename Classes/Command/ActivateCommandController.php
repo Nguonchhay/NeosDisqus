@@ -30,7 +30,6 @@ class ActivateCommandController extends CommandController
         } else {
             $this->copyCommonTemplate($siteKey, $override);
             $this->copyCommonFusion($siteKey);
-            $this->outputLine('Disqus is activated.');
         }
     }
 
@@ -65,7 +64,7 @@ class ActivateCommandController extends CommandController
                 $fusionContent = file_get_contents($fusionPath);
                 $siteFusionContent .= "\n" . $fusionContent;
                 if (file_put_contents($siteFusionPath, $siteFusionContent)) {
-                    $this->outputLine("Copy fusion to: `$siteFusionPath``");
+                    $this->outputLine("- Copy fusion to: `$siteFusionPath``");
                 }
             }
         }
