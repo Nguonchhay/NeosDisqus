@@ -2,14 +2,14 @@ Nguonchhay.NeosDisqus
 ---------------------
 
 This is the comment plugin for Neos base on [DISQUE](https://disqus.com/).
-Compatible with Neos 2.x, 3.x
+Compatible with Neos >= 2.3
 
 Installation
 ------------
 
 * Install plugin
 ```bash
-composer require "nguonchhay/neosdisqus:dev-master"
+composer require "nguonchhay/neosdisqus:~1.0.0"
 ```
 
 * Add `disqusEmbeddedScript` property to your root page (.yaml)
@@ -47,5 +47,5 @@ disqusEmbeddedScript:
 
 Then go to back end to add the Disqus embedded script at root page.
 
-__Note__: the `Disqus` comments are rendered only on the LIVE environment in order to save the loading 
+__Note__: the `Disqus` comments are rendered only on the LIVE environment in order to save the loading
 speed of back-end.
